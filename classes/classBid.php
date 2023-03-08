@@ -49,7 +49,7 @@ class classBid {
 
         // Perform a decreased iteration for the submitted budget
         do {
-            // Substract 0.01 to iterate
+            // Subtract 0.01 to iterate
             $vehicleAmount = $vehicleAmount - 0.01;
 
             // Calculate the "Basic user fee" depending on the conditions

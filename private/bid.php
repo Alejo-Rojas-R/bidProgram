@@ -5,7 +5,7 @@ if (isset($_POST["budget"])) {
 
     include "../classes/classBid.php";
 
-    // Instanciate class with the submitted budget
+    // instantiate class with the submitted budget
     $bidClass = new classBid($budget);
 
     // Validate submitted input
